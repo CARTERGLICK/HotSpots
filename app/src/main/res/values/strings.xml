@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">HotSpots</string>
+    <string name="basketball_title">Basketball</string>
+    <string name="shotChart_title">Shot Chart</string>
+    <string name="start_button">"Start "</string>
+    <string name="purpose_button">Purpose of Shot Chart</string>
+    <string name="title_activity_purpose_activiety">PurposeActiviety</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="homeScreenButton">Home Button</string>
+    <string name="zero">0</string>
+    <string name="madeButton">Made Button</string>
+    <string name="missButton">Miss Button</string>
+    <string name="threePointSpot">Choose Your Three Point Spot</string>
+    <string name="cornerThree">Corner Three</string>
+    <string name="rightCornerThree">Right Corner Three</string>
+    <string name="rightWingThree">Right Wing Three</string>
+    <string name="topOfKeyThree">Top of the key Three</string>
+    <string name="leftWingThree">Left Wing Three</string>
+    <string name="leftCornerThree">Left Corner Three</string>
+    <string name="goToCounter">Go To The Counter</string>
+    <string name="resetButton">Reset Button</string>
+</resources>

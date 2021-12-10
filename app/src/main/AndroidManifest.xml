@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hotspots">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HotSpots">
+        <activity
+            android:name=".Chooseyourspot"
+            android:exported="false" />
+        <activity
+            android:name=".Countercounter"
+            android:exported="false" />
+        <activity
+            android:name=".HotSpotsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PurposeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PurposeActiviety"
+            android:exported="false"
+            android:label="@string/title_activity_purpose_activiety"
+            android:theme="@style/Theme.HotSpots.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
