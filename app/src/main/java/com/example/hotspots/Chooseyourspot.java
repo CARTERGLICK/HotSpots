@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.RadioGroup;
 
 public class Chooseyourspot extends AppCompatActivity {
+    public static final String LOC = "location";
+    Integer loc;
     private RadioGroup radioGroup;
 
 
@@ -18,32 +20,38 @@ public class Chooseyourspot extends AppCompatActivity {
         Counter counter = new Counter();
         radioGroup = findViewById(R.id.radioGroup);
 
+
         radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int i) {
                 switch (i){
                     case R.id.rightCornerThree:
-                        counter.setrC(true);
+                       loc=1;
                         break;
                     case R.id.rightWingThree:
-                        counter.setrW(true);
+                        loc=2;
                         break;
                     case R.id.topOfKeyThree:
-                        counter.settK(true);
+                        loc=3;
                         break;
                     case R.id.leftWingThree:
-                        counter.setlW(true);
+                       loc=4;
                         break;
+
                     case R.id.leftCornerThree:
-                        counter.setlC(true);
+                        loc=5;
                         break;
                 }
             }
         });
 
+
     }
     public void goToCounter(View view){
         Intent intent = new Intent(this, Countercounter.class);
+
+        Integer ren= loc;
+        intent.putExtra(LOC,ren);
         startActivity(intent);
     }
 

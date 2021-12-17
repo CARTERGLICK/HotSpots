@@ -26,4 +26,7 @@
     <string name="leftCornerThree">Left Corner Three</string>
     <string name="goToCounter">Go To The Counter</string>
     <string name="resetButton">Reset Button</string>
+    <string name="zeros">00</string>
+    <string name="goToStart">Start over</string>
+    <string name="startOver">Start Over Again</string>
 </resources>

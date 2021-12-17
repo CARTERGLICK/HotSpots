@@ -50,7 +50,7 @@ public class Counter {
     }
 
     public Integer getPercentage() {
-        return percentage;
+        return (int) ((double) value / (value + missTotal) * 100);
     }
 
     public void setPercentage() {
@@ -75,11 +75,7 @@ public class Counter {
         return value;
     }
 
-    public void resetButton() {
-        value = 0;
-        missTotal = 0;
-
-
+    public Integer getMissTotal() {
+        return missTotal;
     }
-
 }
